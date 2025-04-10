@@ -171,6 +171,10 @@ const createToken = async()=>{
 createToken();
 
 
+console.log(process.env.PORT);
+console.log(process.env.URL);
+// require('dotenv').config();
+// console.log("ENV Loaded ✅", process.env);
 
 app.listen(port,()=>{
     console.log("server started");
